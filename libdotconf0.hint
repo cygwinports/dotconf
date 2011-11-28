@@ -1,5 +1,5 @@
 category: Libs
-requires: libgcc1
+requires:
 external-source: dotconf
 sdesc: "Configuration file parser library (runtime)"
 ldesc: "Dot.conf is a simple-to-use and powerful configuration-file 

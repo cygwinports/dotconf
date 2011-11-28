@@ -1,5 +1,5 @@
 category: Libs
-requires: libdotconf1.0_0
+requires: libdotconf0
 external-source: dotconf
 sdesc: "Configuration file parser library (development)"
 ldesc: "Dot.conf is a simple-to-use and powerful configuration-file 

@@ -1,0 +1,10 @@
+--- origsrc/dotconf/src/Makefile.am	2011-11-28 01:14:39.000000000 -0600
++++ src/dotconf/src/Makefile.am	2011-11-28 01:15:35.907457500 -0600
+@@ -1,6 +1,6 @@
+ lib_LTLIBRARIES = libdotconf.la
+ libdotconf_la_CFLAGS = $(WARNING_CFLAGS)
+-libdotconf_la_LDFLAGS = -version-info $(DC_CURRENT):$(DC_REVISION):$(DC_AGE)
++libdotconf_la_LDFLAGS = -version-info $(DC_CURRENT):$(DC_REVISION):$(DC_AGE) -no-undefined
+ libdotconf_la_SOURCES = dotconf.c \
+ 	dotconf.h \
+ 	dotconf_priv.h \
